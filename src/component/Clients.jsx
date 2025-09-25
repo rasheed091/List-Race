@@ -1,0 +1,24 @@
+import React from 'react'
+import C2 from "../assets/c2.png";
+import C3 from "../assets/c3.png";
+import C4 from "../assets/c4.png";
+import { FaRegStar } from 'react-icons/fa';
+
+export default function Clients() {
+    const ourClients =[
+        {
+            icon: FaRegStar,
+            Name: 'Tom Leaker',
+            Country: 'London, UK',
+            Reviews: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis porro error assumenda quae esse sed repellat aliquid facilis! Amet, quia soluta? Obcaecati commodi aut quibusdam tempora quia',  
+        }
+    ]
+  return (
+    <>
+        <div className='w-screen mt-[50px] flex flex-col gap-7 justify-center items-center'>
+            <h1 className='text-[28px] font-light text-[#272626]'>Clients Reviews</h1>
+            <p className='text-[18px] text-[#6d6b6b]'>What our clients says about us</p>
+        </div>
+    </>
+  )
+}
