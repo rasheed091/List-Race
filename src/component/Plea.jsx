@@ -32,10 +32,10 @@ export default function Plea() {
         },
     ]
   return (
-    <div className='flex justify-center items-center gap-10 mt-[-90px]'>
+    <div className='md:flex justify-center items-center gap-10 mt-[-90px]  '>
         {
            pleaItem.map((eachPlea)=>(
-            <div className='shadow-sm bg-white text-center w-[15%] p-7'>
+            <div className='shadow-sm bg-white text-center md:w-[15%] w-[100%] p-7 my-[20px]'>
                 <eachPlea.icon className= {`${eachPlea.icon} size-[40px] m-auto`}/>
                 <h2 className='py-2 text-2xl'>{eachPlea.text1}</h2>
                 <p>{eachPlea.text2}</p>

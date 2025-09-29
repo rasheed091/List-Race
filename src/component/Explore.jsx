@@ -107,7 +107,7 @@ export default function Explore() {
       <div className='flex-wrap flex gap-[30px] p-[15px] items-center justify-center text-red '>
         {
             eachExplore.map((Explores)=>(
-              <div className='shadow font-poppins' >
+              <div className='shadow font-poppins bg-white' >
                 <img src={Explores.Img} alt="" className='w-fit' />
                 <h1 className='font-semibold text-[13px] capitalize mt-4 px-5' >{Explores.Name}</h1>
                 <div className='flex gap-2 mt-3 text-[#7c7b7b] text-[12px] p-2 '>

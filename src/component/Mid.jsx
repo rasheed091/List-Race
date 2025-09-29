@@ -10,11 +10,11 @@ export default function Mid() {
       
       
       <div>
-        <div className="bg-[url(assets/banner.jpg)] h-screen ">
-          <div className=' text-white flex items-center justify-center h-screen flex-col bg-[#3d3c3c8f]'>
-            <h1 className='text-center text-[45px] font-bold uppercase tracking font-sans'>best place to find and explore<br/>that all you need</h1>
-            <p className='text-[20px] font-semibold mt-2'>Find Best Place, Restaurant, Hotel, Real State and many more think in just One click</p>
-            <div className='flex items-center'>
+        <div className="bg-[url(assets/banner.jpg)] md:h-screen h-[80vh] ">
+          <div className=' text-white text-center flex items-center justify-center h-[80vh] md:h-screen flex-col bg-[#3d3c3c8f]'>
+            <h1 className='text-center md:text-[45px] text-[20px] font-bold uppercase tracking font-sans'>best place to find and explore<br/>that all you need</h1>
+            <p className='md:text-[20px] font-semibold mt-2 text-[15px]'>Find Best Place, Restaurant, Hotel, Real State and many more think in just One click</p>
+            <div className='md:flex items-center hidden'>
               <div className='border-2 text-black bg-white text-[15px] font-Poppins px-[30px] py-[20px] flex items-center mt-[80px]'>
                 <p className='text-[20px] font-bold text-[#2b2828] '>What?<span className='text-[#a8a8a8] text-[15px] ml-[10px]'>Ex: Place, Resturant, Food, Automobile</span></p>
                 <LuLogs className='size-[25px] ml-4 mr-4'/>
