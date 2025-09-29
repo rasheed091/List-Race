@@ -34,7 +34,7 @@ export default function How() {
         <div className='md:flex justify-center items-center gap-7 '>
             {
                 howItWorks.map((workseach)=>(
-                    <div className='bg-white text-center items-center p-7 shadow group hover:bg-[orangered] my-[20px]'>
+                    <div className='bg-white md:w-[30%] w-[100%] text-center items-center p-7 shadow group hover:bg-[orangered] my-[20px]'>
                         <workseach.Icon className='size-[80px] m-auto border-none rounded-[40px] p-[20px] bg-[#dbd6d6] '/>
                         <h1 className='text-[20px] mt-8 group-hover:text-white '>{workseach.Text1}</h1>
                         <p className='text-[14px] text-[gray] mt-[16px] group-hover:text-white'>{workseach.Text2}</p>
