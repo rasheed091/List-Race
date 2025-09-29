@@ -35,7 +35,7 @@ export default function Clients() {
 
         {
             ourClients.map((Clients)=>(
-                <div className='w-[30%] p-[50px] flex shadow'>
+                <div className='w-[30%] p-[50px] flex shadow bg-white'>
                     <img src={Clients.img} alt="" />
                     <div>
                         <h1 className='text-[17px] font-bold text-[#4b4949] ' style={{fontFamily: "Poppins", }}>{Clients.Name}</h1>
