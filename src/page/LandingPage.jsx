@@ -16,6 +16,7 @@ import { SiGooglemaps } from 'react-icons/si';
 import How from '../component/How';
 import Explore from '../component/Explore';
 import Clients from '../component/Clients';
+import Listening from '../component/Listening';
 export default function LandingPage() {
   return (
     <div>
@@ -25,6 +26,7 @@ export default function LandingPage() {
       <How/>
       <Explore/>
       <Clients/>
+      <Listening/>
     </div>
   )
 }
